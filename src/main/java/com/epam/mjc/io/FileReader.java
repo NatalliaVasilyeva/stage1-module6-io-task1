@@ -11,8 +11,8 @@ import java.util.stream.Collectors;
 
 public class FileReader {
 
-    private final static String LINE_SEPARATOR = "\n";
-    private final static String WORDS_SEPARATOR = " ";
+    private static final String LINE_SEPARATOR = "\n";
+    private static final String WORDS_SEPARATOR = " ";
 
     public Profile getDataFromFile(File file) {
         String path = file.getAbsolutePath();
